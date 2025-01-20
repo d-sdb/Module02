@@ -11,10 +11,15 @@ aside {
     text-align: right;
 }
 
+aside::first-line {
+    font-weight: bold;
+}
+
 h2 {
     text-align: center;      /* Center the text horizontally */
     margin: 0 auto;          /* Ensures the element is centered if it has width */
     padding: 10px 0;         /* Add some padding for spacing */
+    font-style: italic;
     
 }
 
@@ -29,11 +34,13 @@ section {
     position: relative;          /* Make the section a positioned container */
     text-align: justify;         /* Justify the text inside the paragraph */
     line-height: 1.25;           /* Make sure the lines are spaced nicely */
-    padding-left: 75px;          /* Add padding to the left */
+    padding-left: 60px;          /* Add padding to the left */
     padding-right: 20px;         /* Add padding to the right */
     padding-bottom: 15px;        /* Add padding to the bottom */
     padding-top: 15px;
     z-index: 1;                  /* Ensure the text is in front of the rectangle */
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* Create a tan rectangle with a green border behind the text */
