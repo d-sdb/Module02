@@ -50,9 +50,10 @@ section {
     margin-left: 20px;
     margin-right: 20px;
     background-image: url ('WidgetCoLogo.gif');
-    background-size: 60%;
+    background-size: 70%;
     background-position: center center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* Section for creating the tan and green rectangle*/
@@ -72,9 +73,10 @@ section::before {
 /* Section for putting the image behind the text on body area of the page*/
 body {
     background-image: url('WidgetCoLogo.gif');
-    background-size: 60%;
+    background-size: 70%;
     background-position: center center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
